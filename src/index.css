@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  background: #008080;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-bar {
+  list-style-type: none;
+}
+
+.routes {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline
+}
+
+.title {
+  /* Position, width, and height need to be responsive. Added as placeholder from Figma */
+  position: absolute;
+  left: calc(50% - 306px/2 + 4px);
+  top: 144px;
+  font-family: Metrophobic, monospace;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: #feffff;
+  text-align: center;
+}
+
+.about {
+  position: relative;
+  width: 25%;
+  left: calc(48% - 306px/2 + 4px);
+  top: 144px;
+
+  font-family: Metrophobic, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  color: #17252A;
+}
+
+.testingbutton {
+  display: block;
+  margin-top: 2px;
+  text-align: right;
+  margin-left: 75%;
+}
+
+.back {
+  display: block;
+}
+
+.window {
+  width: fit-content;
+  margin-top: 2%;
+}
+
+.testText {
+  font-size: 20px;
+}
+
+.field-row-stacked{
+  width:200px;
 }
