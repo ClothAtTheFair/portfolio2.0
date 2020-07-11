@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return ( 
             <div>
-                <h1>Placeholder</h1>
+                <h1>Projects Overview</h1>
             </div>
         );
     }

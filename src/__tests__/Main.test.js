@@ -14,9 +14,9 @@ test('full app rendering/navigating', () => {
     )
 
     //Verify page content for the landing page
-    expect(container.innerHTML).toMatch("Hi I'm Bradley,")
+    expect(container.innerHTML).toMatch("Placeholder")
 
     fireEvent.click(getByText(/projects/i))
 
-    expect(container.innerHTML).toMatch("Projects")
+    expect(container.innerHTML).toMatch("Projects Overview")
 })
